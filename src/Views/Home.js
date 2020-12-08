@@ -20,6 +20,10 @@ function Home(props) {
             setCart([...cart,objects[id]]);
             props.onChangeCart(objects[id]);
             props.onChangeWallet(wallet - objects[id].Pr);
+        }else if ( objects[id] && objects[id].Pr >= wallet){
+            alert("Insufficient funds!");
+        }else if ( objects[id] && objects[id].Cnt === 0){
+            alert("Product out of stock!");
         }else{
             alert("Buy a valid product!");
         }
