@@ -7,7 +7,93 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.item{
+  width:200px;
+  border:1px solid 	#D3D3D3;
+  margin:20px;
+  border-radius:5px;
+  float:left;
+  position:relative;
+}
+.containerObj{
+  padding:20px;
+  width:70%;
+  margin-left:100px;
+}
+
+.headerObj{
+  top:0;
+  text-align: center;
+  border-bottom: 1px solid 	#D3D3D3;
+  font-size:18px;
+}
+
+.greyHeader{
+  background-color: #F0F0F0;
+}
+
+.headerName{
+  font-size:36px;
+  width:60%;
+  margin:auto;
+  text-align: center;
+  border-bottom: 1px solid 	#D3D3D3;
+}
+
+.blueHeader{
+  background-color: #87CEFA;
+}
+
+.main{
+  position:relative;
+}
+
+.wallet{
+  position:absolute;
+  width:20%;
+  right:0px;
+  border:1px solid 	#D3D3D3;
+  margin:40px;
+  border-radius:5px;
+}
+
+.footerObj{
+  bottom:0;
+  border-top: 1px solid #D3D3D3;
+  text-align:center;
+  padding:5px;
+  background-color: #808080;
+  color:white;
+  font-weight:bold;
+  text-shadow: 1px 1px black;
+  font-size:16px;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+.imagesDiv{
+  width:200px;
+  height:190px;
+}
+
+.payment{
+  top:100px;
+  right:100px;
+  position:absolute;
+  text-align: center;
+}
+
+.optionBtn{
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    margin:2px;
+    background-color: #808080;
+    color:white;
+    font-weight:bold;
+    text-shadow: 1px 1px black;
+    font-size:15px;
 }
